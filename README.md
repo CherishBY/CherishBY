@@ -1,2 +1,2 @@
-# CherishBY.github.io
-用于Github个人页的展示
+# Hi~ 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CherishBY&show_icons=true)
