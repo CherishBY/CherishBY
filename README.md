@@ -1,3 +1,5 @@
-# Hi~ 
-|![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CherishBY&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true)|![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=CherishBY&layout=compact&theme=buefy&hide_border=true)
-| ------------- | ------------- |
+## 自定义日志
+- 20250414：给md文档添加自定义头部信息——从frontmatter中获取title
+
+## 备注
+- 技能图标：https://shields.io/
