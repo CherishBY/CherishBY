@@ -23,6 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
+docs/.vitepress/cache
+
 .obsidian
 .makemd
 .space
