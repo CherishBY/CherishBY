@@ -15,7 +15,7 @@ export default defineConfig({
   },
   themeConfig: {
     lastUpdated: {
-      text: '更新于：',
+      text: '更新于',
       formatOptions: {
         dateStyle: 'short',
         timeStyle: 'medium'
@@ -39,7 +39,8 @@ export default defineConfig({
         {
           items: [
             {text: '术语',link: '/posts/web/术语'},
-            {text: 'HTML和CSS',link: '/posts/web/HTML和CSS'},
+            { text: 'HTML和CSS', link: '/posts/web/HTML和CSS' },
+            { text: '语义化', link: '/posts/web/语义化' },
           ]
         },
         {

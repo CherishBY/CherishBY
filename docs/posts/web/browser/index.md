@@ -15,6 +15,7 @@ poster:
 
 ## 主流浏览器
 - IE：Trident
+- edge：edgeHTML / Blink
 - chrome：webkit（以前） / Blink（现在）
 - Safari：webkit
 - Firefox：Gecko
