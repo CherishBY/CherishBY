@@ -32,7 +32,7 @@ export default defineConfig({
     },
     footer: {
       message: `Powered by&nbsp;<a href="https://vitepress.dev/zh/" target="_blank">VitePress</a>`,
-      copyright: `<span>Copyright © <a href="${githubLink}" target="_blank">${author}</a> | MIT License</span> | Site View:<span id="busuanzi_value_site_pv">0</span>`
+      copyright: `<span>Copyright © <a href="${githubLink}" target="_blank">${author}</a> | MIT License</span>`
     },
     sidebar: {
       '/posts/web/': [
@@ -52,10 +52,10 @@ export default defineConfig({
           ]
         },
         {
-          text: 'HTML',
+          text: 'CSS',
           collapsed: false,
           items: [
-            // { text: '什么是HTML？', link: '/posts/web/html/什么是HTML？' }
+            { text: '层叠（权重计算）', link: '/posts/web/CSS/层叠（权重计算）' }
           ]
         }
       ]

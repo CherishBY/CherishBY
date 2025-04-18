@@ -15,9 +15,9 @@ hero:
     #   link:
 
 features:
-  - title: HTML和CSS
-    details: HTML和CSS都是什么呢？有什么用呢？
-    link: /posts/web/HTML和CSS
+  - title: 层叠（权重计算）
+    details: 层叠是CSS的一个基本特性，它的是指：解决声明冲突的这个过程（算法），并且只有CSS的属性值对才会参与层叠的计算。这个过程是由浏览器自行处理的。
+    link: /posts/web/CSS/层叠（权重计算）
   # - title: Feature B
     # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C
