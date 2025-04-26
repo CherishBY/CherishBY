@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 前端
-      link: /posts/web/
+      link: /web/
     # - theme: alt
     #   text: GitHub
     #   link:
@@ -17,7 +17,7 @@ hero:
 features:
   - title: 层叠（权重计算）
     details: 层叠是CSS的一个基本特性，它的是指：解决声明冲突的这个过程（算法），并且只有CSS的属性值对才会参与层叠的计算。这个过程是由浏览器自行处理的。
-    link: /posts/web/CSS/层叠（权重计算）
+    link: /web/css/层叠（权重计算）
   # - title: Feature B
     # details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C

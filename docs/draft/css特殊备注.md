@@ -1,0 +1,1 @@
+- border-color：如果没有设置颜色值，则继承本元素的color属性值
