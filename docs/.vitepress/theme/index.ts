@@ -14,5 +14,12 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('CreateDocInfo', CreateDocInfo);
+
+    // 配置不蒜子
+    if (typeof window !== 'undefined') {
+      const script = document.createElement('script')
+      script.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
+      document.head.appendChild(script)
+    }
   }
 } satisfies Theme

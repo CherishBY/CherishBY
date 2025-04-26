@@ -13,6 +13,10 @@ export default defineConfig({
       lang: 'zh-cn'
     }
   },
+  rewrites: {
+    'posts/:path(.*)': ':path(.*)',
+    'posts/index.md': '/'
+  },
   themeConfig: {
     lastUpdated: {
       text: '更新于',
@@ -24,7 +28,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '前端', link: '/posts/web/' }
+      { text: '前端', link: '/web/', activeMatch: '/web/' }
     ],
     outline: {
       level: 'deep',
@@ -35,27 +39,28 @@ export default defineConfig({
       copyright: `<span>Copyright © <a href="${githubLink}" target="_blank">${author}</a> | MIT License</span>`
     },
     sidebar: {
-      '/posts/web/': [
+      '/web/': [
         {
           items: [
-            {text: '术语',link: '/posts/web/术语'},
-            { text: 'HTML和CSS', link: '/posts/web/HTML和CSS' },
-            { text: '语义化', link: '/posts/web/语义化' },
+            {text: '术语',link: '/web/术语'},
+            { text: 'HTML和CSS', link: '/web/HTML和CSS' },
+            { text: '语义化', link: '/web/语义化' },
           ]
         },
         {
           text: '浏览器',
           collapsed: false,
-          link: '/posts/web/browser/',
+          link: '/web/browser/',
           items: [
-            // { text: '什么是HTML？', link: '/posts/web/html/什么是HTML？' }
+            // { text: '什么是HTML？', link: '/web/html/什么是HTML？' }
           ]
         },
         {
           text: 'CSS',
           collapsed: false,
+          link: '/web/css/',
           items: [
-            { text: '层叠（权重计算）', link: '/posts/web/CSS/层叠（权重计算）' }
+            { text: '层叠（权重计算）', link: '/web/css/层叠（权重计算）' }
           ]
         }
       ]
