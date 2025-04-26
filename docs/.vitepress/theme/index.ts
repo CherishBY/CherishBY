@@ -2,24 +2,27 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import CreateDocInfo from './components/CreateDocInfo.vue'
+import CustomLayout from './CustomLayout.vue';
+// import CreateDocInfo from './components/CreateDocInfo.vue'
 import './style.css'
 
 export default {
   extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  Layout: CustomLayout,
   enhanceApp({ app, router, siteData }) {
-    app.component('CreateDocInfo', CreateDocInfo);
+    // app.component('CreateDocInfo', CreateDocInfo);
 
     // 配置不蒜子
     if (typeof window !== 'undefined') {
-      const script = document.createElement('script')
-      script.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
-      document.head.appendChild(script)
+      document.head.insertAdjacentHTML('beforeend', `
+        <script
+          src="https://busuanzi.9420.ltd/js"
+          defer
+          pjax
+          data-style="short"
+        >
+        </script>
+      `);
     }
   }
 } satisfies Theme

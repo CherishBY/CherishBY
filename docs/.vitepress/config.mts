@@ -58,7 +58,6 @@ export default defineConfig({
         {
           text: 'CSS',
           collapsed: false,
-          link: '/web/css/',
           items: [
             { text: '层叠（权重计算）', link: '/web/css/层叠（权重计算）' }
           ]

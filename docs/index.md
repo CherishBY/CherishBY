@@ -23,8 +23,3 @@ features:
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
-<div style="display: none;">
-本站总访问量：<span id="busuanzi_container_site_pv"></span>次
-访客数：<span id="busuanzi_container_site_uv"></span>人
-</div>
